@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+/*****************************************************************************************************************************************
+                                                                 INICIO NAV
+******************************************************************************************************************************************/ 
+    nav ul {
+        background-color: #FFC600;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+        
+
+    }
+    nav ul a {
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color: black;
+
+    }
+    #logo-barra {
+        height: 6.5%; 
+        width: 6.5%;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    /*****************************************************************************************************************************************
+                                                                        FIM-NAV
+    ******************************************************************************************************************************************/ 
+    #fundo-img {
+        background-color: #a72abe;
+        height: 12%;
+    }
+
+    #cadastro-barra {
+        background-color: #FFC600;
+        justify-items: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        text-align: center;
+        border: 5px solid #FFC600;
+        border-radius: 0px 0px 50px 50px;
+    }
+
+    #botao-casinha {
+        margin-left: 3%;
+    }
+
+    .fundo {
+        background-image: linear-gradient(#a72abe, #590F65); 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 720px;
+        flex-direction: column;
+    }
+
+    #cadastro {
+        background-color: #FFC600;
+        width: 55%;
+        height: 18%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+    #palavra-cadastro {
+        background-color: #590F65;
+        height: 38%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4%;
+        color: white;
+        border: 5px solid #590F65;
+        border-radius: 50px 50px 50px 50px;
+
+
+    }
+
+    #formulario {
+        background-color: #FFC600;
+        width: 55%;
+        height: 55%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        
+    }
+
+    form input {
+        justify-items: center;
+        width: 650px;
+        height: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    form input[type="submit"] {
+        background-color: #590F65;
+        border: 5px solid #590F65;
+        border-radius: 30px 30px 30px 30px;
+        color: white;
+        border-radius: 3px;
+        font-weight: bold;
+        text-align: center;
+        width: 87%
+    }
+

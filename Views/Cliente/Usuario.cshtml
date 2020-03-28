@@ -1,0 +1,74 @@
+@model RoleTopMVC.ViewModels.HistoricoViewModel
+<link href="~/css/styleusuario.css" rel="stylesheet" type="text/css">
+<style>
+        table {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-collapse: collapse;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            background-color: #ffc600;
+        }
+        td, th {
+            text-align: center;
+            border: 2px solid black;
+            
+        }
+
+        th {
+            font-size: 130%;
+            background-color: #949494
+        }
+        
+</style>
+
+<main> 
+    <div id="fundo-img"> 
+                    <div id="usuario-barra">
+                            <h1>USUÁRIO</h1> 
+                    </div>
+                   <a id="botao-casinha" href='@Url.Action("Index" , "Home")#a-role-top'> <img id="botao-casinha" src="~/img/botao-casa.png" alt="botao para voltar"> </a>   
+            </div>
+        <div id="fundo"> 
+            <table> 
+        <thead>
+                <tr>
+                    <th>DATA</th>
+                    <th>TIPO DE EVENTO</th>
+                    <th>PÚBLICO/PRIVADO</th>
+                    <th>PACOTES</th>
+                    <th>VALOR PAGO</th>
+                    <th>STATUS</th>
+                </tr>
+        </thead>
+        <tbody>
+                @foreach (var formaPagamento in Model.formaPagamento)
+                {
+                <tr>
+                    <td>@formaPagamento.DataEvento</td>
+                    <td>@formaPagamento.tipoEvento</td>
+                    <td>@formaPagamento.publicoPrivado</td>
+                    <td>@formaPagamento.tipoPacote</td>
+                    <td>R$:15.000</td>
+                    <td>@if(@formaPagamento.Status == 0) {
+                        <p> REPROVADO </p> } else if (@formaPagamento.Status == 1) {
+                            <p> PENDENTE </p>
+                        } else {
+                            <p> APROVADO </p>
+                        }
+                    </td>
+                </tr>
+                }
+                
+                
+        </tbody>
+            </table>
+            <br>
+            <div id="botao-agendar">
+               <a id="bt-Agendar" asp-controller="Pedido" asp-action="Pagamento"> <h3>AGENDE UM HORÁRIO</h3> </a>
+            </div>
+            <div id="img-chat"> 
+                    <a class="chat" href="">  <img class="chat" src="~/img/CHAT.png" alt="chatbox"> </a>
+            </div>
+        </div>
+    </main>

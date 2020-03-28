@@ -1,0 +1,33 @@
+ <link href="~/css/stylelogin.css" rel="stylesheet" type="text/css">
+<body>
+    <main>
+            <div id="fundo-img"> 
+                    <div id="login-barra">
+                    <h1>LOGIN</h1>
+                    </div>
+                    <a id="botao-casinha" href='@Url.Action("Index" , "Home")#a-role-top'> <img id="botao-casinha" src="~/img/botao-casa.png" alt="botao para voltar"> </a>
+            </div>
+                    <section class="fundo-login">
+                        <div id="tipo-de-login">
+                            <div id="usuario-administrador">
+                                <h2> USUÁRIO  </h2>
+                                <h2> - </h2>
+                                <h2> ADMINISTRADOR  </h2>
+                            </div>
+                        </div>
+                        <div id="formulario">  
+                               <form method="POST" action='@Url.Action("Login" , "Cliente")'>
+                                    <input id="email" type="email" name="cliente_email" placeholder="ENTRE COM SEU EMAIL, CPF OU NÚMERO">
+                                        <br> <br>
+                                    <input id="senha" type="password" name="cliente_senha" placeholder="SENHA">
+                                        <br> <br>  
+                                    <input type="submit" value="ENTRAR">
+                                    <a href="">ESQUECEU A SENHA? CLIQUE AQUI!</a>
+                                    <br>
+                                    <a id="bt-cadastro" asp-controller="Cadastro" asp-action="Cadastro"> CASO AINDA NAO TENHA SE CADASTRADO: CLIQUE AQUI!</a>
+                               </form>
+                         </div>
+                                    </div>
+                    </section>
+            </main>
+    </body>

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+/*****************************************************************************************************************************************
+                                                                 INICIO NAV
+******************************************************************************************************************************************/ 
+    nav ul {
+        background-color: #FFC600;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+        
+
+    }
+    nav ul a {
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color: black;
+
+    }
+    #logo-barra {
+        height: 6.5%; 
+        width: 6.5%;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    /*****************************************************************************************************************************************
+                                                                        FIM-NAV
+    ******************************************************************************************************************************************/ 
+    #fundo-img {
+        background-color: #a72abe;
+        height: 12%;
+    }
+
+    #usuario-barra {
+        background-color: #FFC600;
+        justify-items: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        text-align: center;
+        border: 5px solid #FFC600;
+        border-radius: 0px 0px 50px 50px;
+    }
+
+    #botao-casinha {
+        margin-left: 3%
+    }
+
+    #fundo {
+        background-image: linear-gradient(#a72abe, #590F65); 
+        height: 1080px;
+
+    }
+
+    #cancelar {
+        color: red;
+        font-size: 105%;
+    }
+
+    td a {
+        text-decoration: none;
+        color: red;
+    }
+
+    #botao-agendar {
+        background-color: #FFC600;
+        width: 8%;
+        height: 5%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+    #botao-agendar > a {
+        text-decoration: none;
+    }
+
+    #img-chat{
+        display: flex;
+        justify-content: flex-end; 
+        margin-right: 5%;
+
+    }
+
+    .chat {
+        width: 20%;
+        height: 25%;
+        display: flex;
+        justify-content: flex-end;
+
+    }

@@ -1,0 +1,68 @@
+@model RoleTopMVC.ViewModels.FormaPagamentoViewModel
+<link href="~/css/stylepagamento.css" rel="stylesheet" type="text/css">
+<html>
+    <body>
+        <main>
+            <div id="fundo"> 
+                    <div id="pagamento-barra">
+                    <h1>Pagamento</h1>
+                    </div>
+                    <a id="botao-casinha" href='@Url.Action("Index" , "Home")#a-role-top'> <img id="botao-casinha" src="~/img/botao-casa.png" alt="botao para voltar"> </a>   
+                        <div id = "organizar">
+                            
+                                <form method="POST" action='@Url.Action("CadastrarAluguel", "Pedido")'>
+                                    <img id="Bandeira-cartoes" src="~/img/cartoes_.png" alt="Bandeiras do cartão">
+                                    <br> <br>
+                                    <p>NÚMERO DO CARTÃO:</p>
+                                <input id="numero-cartao" type="text" name="numeroCartao" placeholder="NÚMERO DO CARTÃO">
+                                <br> <br>  
+                                    <p>NOME DO PROPRIETÁRIO:</p> 
+                                <input id="nome-cartao" type="text" name="nomeCartao" placeholder="NOME DO PROPRIETÁRIO">
+                                <br> <br>   
+                                    <p>EMAIL:</p> 
+                                <input id="email" type="text" name="email" placeholder="EMAIL">
+                                <br> <br>   
+                                    <p>TELEFONE:</p> 
+                                <input id="telefone" type="text" name="telefone" placeholder="TELEFONE">
+                                <br> <br>   
+                                    <p>CVV:</p>
+                                <input id="cvv" type="number" name= "Cvv" placeholder="CVV">
+                                <br> <br>
+                                    <p>DATA DE VALIDADE:</p>   
+                                <input id="data-validade" type="date" name="data-validade" placeholder="DATA DE VALIDADE">  
+                                <br> <br> 
+                                    <p>DATA DO EVENTO:</p>   
+                                <input id="data-evento" type="date" name="data-evento" placeholder="DATA DO EVENTO">   
+                                <br> <br>
+                                <label for="tipoEvento">TIPOS DE EVENTOS:</label>
+                                <select id = "tipoEvento" name = "tipoEvento"> 
+                                    @foreach(var tipoEvento in Model.tipoEvento) {
+                                        <option value="@tipoEvento">@tipoEvento</option>
+                                    }
+                                </select>
+                                <br> <br>
+                                <label>PÚBLICO OU PRIVADO:</label>
+                                <select id = "publicoPrivado" name = "publicoPrivado"> 
+                                    @foreach(var publicoPrivado in Model.publicoPrivado) {
+                                        <option value="@publicoPrivado">@publicoPrivado</option>
+                                    }
+                                </select>
+                                <br> <br>
+                                <label>PACOTES:</label>
+                                <select id = "tipoPacote" name = "tipoPacote"> 
+                                    @foreach(var tipoPacote in Model.tipoPacote) {
+                                        <option value="@tipoPacote">@tipoPacote</option>
+                                    }
+                                </select>
+                                <br> <br>
+                                <p>CASO PREFIRA PAGAMENTO POR BOLETO <a id ="pagar-boleto" href="pagar-boleto">CLIQUE AQUI!</a></p>
+                                <br> 
+                                <p><b>TOTAL: R$15.000</b></p>
+                                <br> <br>
+                                <input id="pagar" type="submit" value="CONFIRMAR PAGAMENTO">
+                                </form>
+                        </div>
+                </div>
+        </main> 
+    </body>
+</html>

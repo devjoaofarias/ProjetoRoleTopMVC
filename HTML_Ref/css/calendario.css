@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+/*****************************************************************************************************************************************
+                                                                 INICIO NAV
+******************************************************************************************************************************************/ 
+    nav ul {
+        background-color: #FFC600;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+        
+
+    }
+    nav ul a {
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color: black;
+
+    }
+    #logo-barra {
+        height: 6.5%; 
+        width: 6.5%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+   
+    /*****************************************************************************************************************************************
+                                                                        FIM-NAV
+    ******************************************************************************************************************************************/
+    #fundo-img {
+        background-color: #a72abe;
+        height: 12%;
+    }
+
+    #calendario-barra {
+        background-color: #FFC600;
+        justify-items: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        text-align: center;
+        border: 5px solid #FFC600;
+        border-radius: 0px 0px 50px 50px;
+    }
+
+    #botao-casinha {
+        margin-left: 3%
+    }
+
+    #fundo {
+        background-image: linear-gradient(#a72abe, #590F65); 
+        height: 1080px;
+
+    }
+
+    p {
+        color: white;
+    }
+
+    #tabela {
+        display: flex;
+        height: 45%;
+        justify-content: center;
+
+    }
+
+    #mes {
+        display: flex;
+        justify-content: center;
+        color: black;
+        border: 4px solid #FFC600;
+        border-radius: 50px 50px 0px 0px;
+        margin-left: 40%;
+        margin-right: 40%;
+        background-color: #FFC600;
+
+    }
+    tr a {
+        font-size: 140%;
+    }
+
+    .dia-1 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }   
+
+    .dia-2 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-3 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-4 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-5 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-6 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-7 {
+        background-color: red;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-8 {
+        background-color: red;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-9 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-10 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-11 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-12 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-13 {
+        background-color: red;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-14 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-15 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-16 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-17 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-18 {
+        background-color: red;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-19 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-20 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-21 {
+        background-color: red;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-22 {
+        background-color: red;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-23 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-24 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-25 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-26 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-27 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-28 {
+        background-color: red;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-29 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dia-30 {
+        background-color: greenyellow;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #img-chat{
+        display: flex;
+        justify-content: flex-end; 
+        margin-right: 5%;
+
+    }
+
+    .chat {
+        width: 30%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }

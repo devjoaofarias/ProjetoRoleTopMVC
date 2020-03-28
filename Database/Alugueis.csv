@@ -1,0 +1,3 @@
+id=1;data-evento=10/05/2020 00:00:00;nomeCartao=murilo;email=murilo@gmail.com;telefone=555555;statusAluguel=1;tipoEvento=ANIVERSÁRIO;publicoPrivado=PRIVADO;tipoPacote=PACOTE DE SOM;numeroCartao=5555555555;Cvv=555;data-validade=10/05/2025 00:00:00;precoTotal=0;
+id=2;data-evento=10/03/2019 00:00:00;nomeCartao=murilo;email=murilo@gmail.com;telefone=555555;statusAluguel=1;tipoEvento=FORMATURA;publicoPrivado=PRIVADO;tipoPacote=PACOTE DE SOM;numeroCartao=4534534534;Cvv=555;data-validade=05/02/0525 00:00:00;precoTotal=0;
+id=3;data-evento=17/01/2020 00:00:00;nomeCartao=lucas;email=lucas@gmail.com;telefone=98989898;statusAluguel=1;tipoEvento=FORMATURA;publicoPrivado=PÚBLICO;tipoPacote=PACOTE DE SOM;numeroCartao=98989898;Cvv=9898;data-validade=07/02/2020 00:00:00;precoTotal=0;

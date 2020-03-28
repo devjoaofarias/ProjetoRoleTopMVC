@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+  /*****************************************************************************************************************************************
+                                                                 INICIO NAV
+  ******************************************************************************************************************************************/ 
+    nav ul {
+        background-color: #FFC600;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+        
+  
+    }
+    nav ul a {
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color: black;
+  
+    }
+    #logo-barra {
+        height: 6.5%; 
+        width: 6.5%;
+    }
+   
+  
+    /*****************************************************************************************************************************************
+                                                                        FIM-NAV
+    ******************************************************************************************************************************************/ 
+    #div-para-arrumar {
+        display: flex; 
+        align-items: flex-end;
+        justify-content: center;
+        background-color: #a72abe;
+        color: aliceblue;
+        height: 450px;
+        width: 100%;
+    }
+  
+    #div-para-arrumar2 {
+      display: flex; 
+      align-items: flex-start;
+      justify-content: center;
+      background-color: #a72abe;
+      color: aliceblue;
+      height: 450px;
+      width: 100%;
+  }
+  
+    #div-para-arrumar > h2 {
+        font-size: 260%;
+        margin-bottom: 1%;
+    }
+  
+    #div-para-arrumar2 > p {
+        font-size: 120%;
+    }
+    
+   
+    h2 {
+        text-decoration: none;
+    }
+  
+    #logo-area {
+        background-image: url(/img/BALADA-desfocada.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        justify-content: center;
+        color: black;      
+    }
+  
+    #primeira-pagina {
+        display: flex;
+        justify-content: space-between;
+        margin: 7%;
+    }
+  
+    #a-role-top {
+        background-color: #FFC600;
+        justify-items: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        text-align: center;
+        border: 5px solid #FFC600;
+        border-radius: 0px 0px 50px 50px;   
+    }
+  
+    #historia-do-lugar {
+        background-color: #FFC600;
+        background-repeat: no-repeat; 
+        width: 32%;   
+        text-align: justify;
+        border: 2px solid #FFC600;
+        border-radius: 15px 15px 15px 15px;
+    }
+  
+    #historia-do-lugar > h2 {
+        text-align: center;
+        
+    }
+  
+    #historia-do-lugar > p {
+        margin: 4%;
+    }
+  
+    #funcionarios {
+       width: 32%;  
+    }
+  
+    #alexandre-fukaya {
+        background-color: #FFC600;
+        background-repeat: no-repeat;
+        margin: 1%;
+        height: 250px;
+        text-align: justify;
+        border: 2px solid #FFC600;
+        border-radius: 15px 15px 15px 15px;
+    } 
+  
+    #alexandre-fukaya > h2 {
+        text-align: center; 
+    }
+  
+    #alexandre-fukaya > p {
+        margin: 4%;
+    }
+    
+    #cesar-sportore {
+        background-color: #FFC600;
+        background-repeat: no-repeat;
+        margin: 1%;
+        height: 250px;
+        text-align: justify;
+        border: 2px solid #FFC600;
+        border-radius: 15px 15px 15px 15px;
+    }
+  
+    #cesar-sportore > h2 {
+        text-align: center;
+    }
+    
+    #cesar-sportore > p {
+        text-align: justify;
+        margin: 4%;
+    }
+    
+    #serviços-faq {
+        width: 32%;
+    }
+  
+    #serviços-opcionais {
+        background-color: #FFC600;
+        background-repeat: no-repeat;      
+        height: 250px;
+        text-align: justify;
+        margin: 1%;
+        border: 2px solid #FFC600;
+        border-radius: 15px 15px 15px 15px;
+    }
+  
+    #serviços-opcionais > h2 {
+        text-align: center;   
+    }
+  
+    #serviços-opcionais > p {
+        text-align: justify;
+        margin: 4%;
+    }
+  
+    #faq {
+        background-color: #FFC600;
+        background-repeat: no-repeat;    
+        height: 250px;
+        text-align: justify;
+        margin: 1%;
+        border: 2px solid #FFC600;
+        border-radius: 15px 15px 15px 15px;
+    }
+  
+    #faq > h2 {
+        text-align: center;  
+    }
+    #faq > p {
+        text-align: justify;
+        margin: 4%;
+    }
+  
+    h2 > strong > a {
+        color: #FFC600;
+        font-weight: bold;
+        display: flex;
+        margin-left: 9.1%;
+        font-size: 1.3em;     
+        text-decoration: none;
+  
+    }
+  
+    #chat-faça {
+        display: flex;
+        justify-content: space-between;
+  
+    }
+  
+    #chat {
+        height: 10%;
+        width: 10%;
+        margin-right: 3%;
+    }
+  
+    #chat-a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    /**********************************************************************************************************************************
+                                                             FIM-PRIMEIRA PARTE
+    **********************************************************************************************************************************/
+  
+    #barra-amarela {
+        background-color: #FFC600;
+        color: #FFC600 
+    }
+     
+    #fundo {
+        background-image: linear-gradient(#a72abe, #590F65);
+        height: 10000px;
+    }
+    
+
+    #galeria-barra {
+        background-color: #FFC600;
+        justify-items: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        text-align: center;
+        border: 5px solid #FFC600;
+        border-radius: 0px 0px 50px 50px;
+    }
+  
+    #fotos {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #planta-salao {
+        width: 25%;
+        height: 25%;
+    }
+  
+    #entrada-salao {
+        width: 25%;
+        height: 25%;
+    }
+  
+    #mesas-salao {
+        width: 25%;
+        height: 25%;
+  
+    }
+  
+    #fotosdois {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #show-salao {
+        width: 25%;
+        height: 25%;
+    }
+  
+    #mesas-arrumadas-salao {
+        width: 25%;
+        height: 25%;
+        padding-top: 1.5%
+    }
+  
+    #balada-dois {
+        width: 25%;
+        height: 25%;
+    }
+  /*******************************************************************************************************************************************
+                                                        FIM-PAGINA GALERIA
+  *******************************************************************************************************************************************/
+    #segunda-barra {
+        background-color: #FFC600;
+        color: #FFC600;
+  
+    }
+    #eventos-barra {
+        background-color: #FFC600;
+        justify-items: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        text-align: center;
+        border: 5px solid #FFC600;
+        border-radius: 0px 0px 50px 50px;
+    }  
+    
+    #text-eventos {
+        display: flex;
+        justify-content: space-around;
+        color: #FFC600;
+    }
+  
+    #eventos-em-cima {
+        display: flex;
+        justify-content: space-around;
+    }
+  
+    #vilamix {
+        height: 30%;
+  ;        width: 30%
+    }
+  
+    #ze-neto {
+        height: 30%;
+        width: 30%;
+    }
+  
+    #eventos-em-baixo {
+        display: flex;
+        justify-content: space-around;
+  
+    }
+  
+    #balada-teen {
+        height: 15%;
+        width: 15%;
+    }
+  
+    #jota-quest {
+        height: 15%;
+        width: 15%;
+    }
+  
+    html {
+        scroll-behavior: smooth;
+    }
+    /*******************************************************************************************************************************************
+                                                                  FIM-PAGINA EVENTOS
+    *******************************************************************************************************************************************/                                                              
+  
+    #terceira-barra {
+        background-color: #FFC600;
+        color: #FFC600;
+    }
+  
+    #localizaçao-barra {
+        background-color: #FFC600;
+        justify-items: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        text-align: center;
+        border: 5px solid #FFC600;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    #localizaçao {
+        display: flex;
+        justify-content: center;
+    }
+  
+    @media (min-width:1100px) {
+        #bt-mobile-menu {
+            display: none;
+        }
+  
+  
+    }
+    @media (max-width:1300px) {
+        #faq { 
+            font-size: 80%
+        }
+        #serviços-opcionais {
+            font-size: 80%
+        }
+        #alexandre-fukaya {
+            font-size: 80%
+        }
+        #cesar-sportore {
+            font-size: 80%
+        }
+        #historia-do-lugar {
+            font-size: 80%
+        }
+    }
+  
+    @media (max-width:1100px) {
+        #bt-mobile-menu {
+            display: none
+    }
+        #faq { 
+            font-size: 65%
+        }
+        #serviços-opcionais {
+            font-size: 65%
+        }
+        #alexandre-fukaya {
+            font-size: 65%
+        }
+        #cesar-sportore {
+            font-size: 65%
+        }
+        #historia-do-lugar {
+            font-size: 65%
+        }
+        #orç {
+            font-size: 70%;
+        }
+    }
+  
+    @media (max-width:800px) {
+        #bt-mobile-menu {
+            display: none
+    }
+        #faq { 
+            font-size: 55%
+        }
+        #serviços-opcionais {
+            font-size: 55%
+        }
+        #alexandre-fukaya {
+            font-size: 55%
+        }
+        #cesar-sportore {
+            font-size: 55%
+        }
+        #historia-do-lugar {
+            font-size: 55%
+        }
+        #orç {
+            font-size: 60%;
+        }
+    }
+  
+    @media (max-width:500px) {
+        #bt-mobile-menu {
+            display: none
+    }
+        #faq { 
+            font-size: 45%
+        }
+        #serviços-opcionais {
+            font-size: 45%
+        }
+        #alexandre-fukaya {
+            font-size: 45%
+        }
+        #cesar-sportore {
+            font-size: 45%
+        }
+        #historia-do-lugar {
+            font-size: 45%
+        }
+    }
+  
+  
+  
+  
+  @media (max-width:800px) {
+    nav #bt-mobile-menu {
+        display: block;
+    }
+  
+    nav .bt-common-menu {
+        display: none;
+    }
+    h1 {
+        font-size: 70%;
+    }
+  
+    nav .bt-common-menu.active {
+        display: block;
+    }
+  
+    nav ul.mobile-mode {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+  @media (max-width:600px) {
+    h1 {
+        font-size: 50%;
+    }
+    a { 
+        font-size: 50%;
+    }
+    #orç {
+        font-size: 50%;
+    }
+  } 
+
+  #pagamento-barra {
+    background-color: #FFC600;
+    justify-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    border: 5px solid #FFC600;
+    border-radius: 0px 0px 50px 50px;
+    }
+
+    #botao-casinha {
+        margin-left: 3%
+    }
+
+    #organizar {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: aliceblue;
+    }
+
+    #div-esquerda {
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #div-direita {
+        margin-top: 2%; 
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 105%;
+        
+    
+}
+
+    #numero-cartao {
+        text-align: center;
+        width: 100%;
+        height: 6%;
+    }
+
+    #nome-cartao {
+        text-align: center;
+        width: 100%;
+        height: 6%;
+    }
+
+    #cvv {
+        text-align: center;
+        width: 100%;
+        height: 6%;
+    }
+
+    #data-validade {
+        text-align: center;
+        width: 100%;
+        height: 6%;
+    }
+
+    #pagar {
+        width: 100%;
+        background-color: #FFC600;
+        color: aliceblue;
+        height: 100%;
+        font-size: 100%;
+        border: 5px solid #FFC600;
+        border-radius: 3px;
+        font-weight: bold;
+    }
+        
+
+

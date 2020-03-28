@@ -1,0 +1,31 @@
+ <link href="~/css/stylecadastro.css" rel="stylesheet" type="text/css">
+<body> 
+       <main>
+        <div id="fundo-img">                                                                                    
+                    <div id="cadastro-barra">
+                         <h1>CADASTRO</h1> 
+                    </div>
+                            <a id="botao-casinha" href='@Url.Action("Index" , "Home")#a-role-top'> <img id="botao-casinha" src="~/img/botao-casa.png" alt="botao para voltar"> </a>   
+            </div>
+                        <section class="fundo"> 
+                            <div id="cadastro">    
+                                <div id="palavra-cadastro"> <h2>CADASTRO</h2> </div>
+                            </div>
+                <div id="formulario">
+                                <form method="POST" action='@Url.Action("CadastrarCliente", "Cadastro")'>
+                            
+                                    <input id="nome" type="text" name="cliente_nome" placeholder="DIGITE SEU NOME COMPLETO">
+                            <br> <br>
+                                    <input id="email" type="email" name="cliente_email" placeholder="DIGITE SEU EMAIL">
+                            <br> <br>
+                                    <input id="cpf" type="cpf" name="cliente_cpf" placeholder="DIGITE SEU CPF">
+                            <br> <br>
+                                    <input id="telefone" type="telefone" name="cliente_telefone" placeholder="DIGITE SEU NÚMERO">
+                            <br> <br>
+                                    <input id="senha" type="password" name="cliente_senha" placeholder="DIGITE SUA SENHA">
+                            <br> <br>  
+                            <input type="submit" value="CONFIRMAR CADASTRO" id="Confirmar-Cadastro" name="Confirmar-Cadastro">  
+                               </form> 
+                        </section>
+        </main>
+</body>

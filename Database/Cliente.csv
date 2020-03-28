@@ -1,0 +1,3 @@
+tipo_usuario=1;cliente_nome=murilo;cliente_email=murilo@gmail.com;cliente_cpf=55555555;cliente_senha=123456;cliente_telefone=55555555;
+tipo_usuario=0;cliente_nome=admin;cliente_email=admin@gmail.com;cliente_cpf=;cliente_senha=123;cliente_telefone=;
+tipo_usuario=1;cliente_nome=lucas;cliente_email=lucas@gmail.com;cliente_cpf=55554444;cliente_senha=123456;cliente_telefone=55554444;

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/logo-role-top.png" rel="icon" type="imag/x-icon">
+    <link rel="stylesheet" type="text/css" href="Pagamento.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pagamento</title>
+</head>
+    <body>
+            <header>
+                    <nav>
+                        <ul> 
+                            <li id="bt-mobile-menu">
+                                    <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                                            <i class="fa fa-bars"></i>
+                                        </a>
+                                    </li>
+                            <img id="logo-barra" src="img/logo-role-top.png" alt="Logo roletop" tittle="logo">
+                            <li><h1>SEJA BEM VINDO!</h1></li>
+                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index" , "Home")#a-role-top'>A ROLÊ TOP</a></li>
+                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index" , "Home")#eventos-barra'>EVENTOS</a></li>
+                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index" , "Home")#galeria-barra'>GALERIA</a></li>
+                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index" , "Home")#localizaçao-barra'>LOCALIZAÇÃO</a></li>
+                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="">CONTATO</a></li>
+                            <li><a id="bt-login" asp-controller="Cliente" asp-action="Login"> LOGIN</a></li>
+                                <!-- logos das redes sociais - abaixo -->
+                                <a href="https://www.facebook.com/profile.php?id=100004442131898"> <img id="logo-facebook" src="img/facebook-icone-icon.png" alt="Icone facebook"> </a>
+                                <a href="https://www.instagram.com/joao_santoskjk/"> <img id="logo-instagram" src="img/insta.png" alt="Icone instagram"> </a>
+                                <a href="https://gmail.com/mail/help/intl/pt_pt/about.html"> <img id="logo-gmail" src="img/ICONE-GMAIL.png" alt="Icone gmail">  </a>
+                                <a href=""> <img id="logo-whatsapp" src="img/watsh.png" alt="Icone whatsapp"> </a>
+                            </ul>
+                        </nav>   
+                    </header>
+        <main>
+
+            <div id="fundo"> 
+                    <div id="pagamento-barra">
+                    <h1>Pagamento</h1>
+                    </div>
+                    <a id="botao-casinha" href="Role Top.html"> <img id="botao-casinha" src="img/botao-casa.png" alt="botao para voltar"> </a>
+                        <div id = "organizar">
+                            <div id = "div-esquerda">
+                                <form action="">
+                                    <p>NÚMERO DO CARTÃO:</p>
+                                <input id="numero-cartao" type="numero-cartao" name="numero-cartao" placeholder="NÚMERO DO CARTÃO">
+                                <br> <br>  
+                                    <p>NOME DO PROPRIETÁRIO:</p> 
+                                <input id="nome-cartao" type="nome-cartao" name="nome-cartao" placeholder="NOME DO PROPRIETÁRIO">
+                                <br> <br>   
+                                    <p>CVV:</p>
+                                <input id="cvv" type="cvv" name="cvv" placeholder="CVV">
+                                <br> <br>
+                                    <p>DATA DE VALIDADE:</p>   
+                                <input id="data-validade" type="data" name="data-validade" placeholder="DATA DE VALIDADE">   
+                                <br> <br>
+                                <img id="Bandeira-cartoes" src="img/cartoes_.png" alt="Bandeiras do cartão">
+                                </form>
+                            </div>
+                            <div id = "div-direita"> 
+                                <p><b>TOTAL: R$15.000</b></p>
+                                <br> <br>
+                                <p>EVENTO PÚBLICO <input type="checkbox" name="evento-publico" id="evento-publico"></p>     
+                                    <br> <br>
+                                <p>EVENTO PARTICULAR <input type="checkbox" name="evento-particular" id="evento-particular"></p>        
+                                    <br> <br>
+                                <p>PACOTE DE SOM <input type="checkbox" name="pacote-som" id="pacote-som"> </p>
+                                    <br> <br>
+                                <p>PACOTE DE ILUMINAÇÃO <input type="checkbox" name="pacote-iluminaçao" id="pacote-iluminaçao"> </p>
+                                <br> <br>
+                                <p>CASO PREFIRA PAGAMENTO POR BOLETO <a href="pagar-boleto">CLIQUE AQUI!</a></p>
+                                <br> <br>
+                                <input id="pagar" type="submit" value="CONFIRMAR PAGAMENTO">
+
+                            </div>
+                        </div>
+            </div>
+
+        </main> 
+    </body>
+</html>
